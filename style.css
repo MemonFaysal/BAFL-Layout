@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    background-color: #7a9e7e;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    color: #31493d;
+}
+
+nav > h4{
+    margin-left: 20px;
+}
+
+.Content {
+    display: flex;
+    background-color: #d3dcdc;
+}
+
+.Left {
+    width: 20%;
+}
+
+.Center {
+    width: 60%;
+
+}
+
+.Right {
+    width: 20%;
+}
+
+
+.LeftMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.LeftMenu > img {
+    border-radius: 10%;
+}
+
+.MainContainer .Right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #31493d;
+}
+
+.Right > i {
+    margin: 20px;
+}
+
+.Article{
+    display: flex;
+    margin: 10px;
+    background-color: white;
+    color: #334b3f;
+}
+
+.Article > img {
+    border-radius: 3%;
+}
+
+.Article > p {
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+.fa-globe .fa-user .fa-flask .fa-snowflake-o{
+    color: #31493d;
+}
+.fa-user {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    margin-left: auto;
+    
+}
